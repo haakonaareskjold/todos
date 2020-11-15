@@ -1,6 +1,8 @@
 version: "3.8"
 
 services:
+
+  # API is only meant for development
   todos:
     container_name: todos
     image: php:7.4-alpine3.12

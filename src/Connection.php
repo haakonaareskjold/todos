@@ -7,7 +7,8 @@ class Connection
 
     public function __construct()
     {
-        $this->make()->prepare(
+        $this->make()
+            ->prepare(
             "CREATE TABLE IF NOT EXISTS todos (id integer NOT NULL UNIQUE PRIMARY KEY  AUTOINCREMENT , tasks TEXT NOT NULL)")
             ->execute();
     }
