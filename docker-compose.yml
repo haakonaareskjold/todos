@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  todos:
+    container_name: todos
+    image: php:7.4-alpine3.12
+    working_dir: /todos
+    command: php -S 0.0.0.0:8080
+    environment:
+      docker: "true"
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/todos
