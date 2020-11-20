@@ -1,4 +1,5 @@
 # Todos
+[![StyleCI](https://github.styleci.io/repos/312598005/shield?branch=Main)](https://github.styleci.io/repos/312598005?branch=Main)
 
 This API is only meant for development and serve no actual purpose
 
