@@ -2,7 +2,7 @@
 
 $query = require 'src/bootstrap.php';
 
-$query = new QueryBuilder( new Connection());
+$query = new QueryBuilder(new Connection());
 $query->selectAll('todos', 'Task');
 $query->CSRF();
 
