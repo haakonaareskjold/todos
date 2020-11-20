@@ -1,8 +1,5 @@
 preset: psr12
 
-disabled:
-  - trailing_comma_in_multiline_array
-
 finder:
   exclude:
     - "tests"
