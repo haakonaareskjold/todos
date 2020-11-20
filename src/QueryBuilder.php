@@ -3,8 +3,6 @@
 
 class QueryBuilder
 {
-
-
     private Connection $connection;
 
     public function __construct(Connection $connection)
@@ -30,6 +28,6 @@ class QueryBuilder
 
         $statement->execute();
 
-        return $statement->fetchAll(PDO::FETCH_CLASS , $intoClass);
+        return $statement->fetchAll(PDO::FETCH_CLASS, $intoClass);
     }
 }
