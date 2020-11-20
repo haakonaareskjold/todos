@@ -1,0 +1,12 @@
+php:
+  version: 7.4
+  preset: psr12
+
+  disabled:
+  - trailing_comma_in_multiline_array
+
+  finder:
+  exclude:
+    - "tests"
+  name:
+    - "*.php"
